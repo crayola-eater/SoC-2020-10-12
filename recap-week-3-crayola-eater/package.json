@@ -1,0 +1,32 @@
+{
+  "name": "monday-recap-tasks",
+  "version": "1.0.0",
+  "description": "- SQL\r  - Node\r  - NPM\r  - Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createTable": "node db/scripts/createTable.js",
+    "populateTable": "node db/scripts/populateTable.js",
+    "dropTable": "node db/scripts/dropTable.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/recap_week-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/recap_week-3/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/recap_week-3#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
